@@ -57,5 +57,6 @@ body{
     display: none;
 }
 .time{
-    max-width: 384px;
+    max-width: 384px; 
+    width: 100%;
 }
