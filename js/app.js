@@ -4,10 +4,13 @@ const details = document.querySelector('.details');
 const span = document.querySelector('.span');
 const time = document.querySelector('img');
 const icon = document.querySelector('.icon img');
+const loader = document.querySelector('.loader')
 
 const updateUI = (data) => {
 
   const {cityDetails, weather} = data;
+
+  loader.classList.add('display')
 
   details.innerHTML = `
     <h2>${cityDetails.EnglishName}</h2>
@@ -42,6 +45,7 @@ const updateCity = async city =>{
 
 city.addEventListener('submit', e => {
     e.preventDefault();
+    loader.classList.remove('display')
 
     const cityValue = city.city.value.trim()
     city.reset();
