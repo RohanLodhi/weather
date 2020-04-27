@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Weather</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Noto+Serif+JP:wght@500&family=Overpass&family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon/favicon-16x16.png">
+    <link rel="manifest" href="imgs/favicon/site.webmanifest">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">SimpleWeather</h1>
+        <form class="form">
+            <label for="city">Enter location:</label>
+            <input type="text" name="city" class="input">
+        </form>
+        <br><br><br>
+        <div class="card display">
+            <img src="https://via.placeholder.com/400x300" class="time">
+            <div class="icon">
+                <img src="">
+            </div>
+            <div class="details">
+                <h2>City Name</h3>
+                <h5>Weather Conditions</h3>
+            </div>
+            <br>
+            <div class="span">
+                <span>TEMP</span>
+                <span>&deg; C</span>
+            </div>
+            <br><br>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

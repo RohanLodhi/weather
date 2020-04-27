@@ -1,0 +1,57 @@
+body{
+    background-color: #eeedec;
+    letter-spacing: 0.2em;
+    font-family: 'Overpass', sans-serif;
+}
+.container{
+    margin: auto;
+    max-width: 400px;
+    color: #838383;
+    border-radius: 10%;
+    box-shadow: rosybrown;
+}
+.heading{
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+}
+.form{
+    padding: 5%;
+    text-align: center;
+    color: silver;
+}
+.input{
+    padding: 2%;
+}
+.icon{
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: -50px;
+}
+.details{
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    width: 400px;
+}
+.span{
+    font-family: 'Noto Serif JP', serif;
+    text-align: center;
+    font-size: 2.5em;
+    width: 400px;
+}
+.card {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.display{
+    display: none;
+}
